@@ -1,5 +1,7 @@
 <template>
   <Wallpaper />
+  
+  <Toolbar />
 </template>
 
 <style>
