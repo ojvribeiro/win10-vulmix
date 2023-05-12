@@ -1,4 +1,5 @@
 <template>
+  <Wallpaper />
 </template>
 
 <style>
