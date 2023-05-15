@@ -1,3 +1,10 @@
+<script setup>
+  import { useNow, useDateFormat } from '@vueuse/core'
+
+  const formattedTime = useDateFormat(useNow(), 'HH:mm')
+  const formattedDate = useDateFormat(useNow(), 'DD/MM/YYYY')
+</script>
+
 <template>
   <div
     class="fixed bottom-0 left-0 h-11 w-screen bg-zinc-900/90 font-light backdrop-blur-md"
@@ -60,8 +67,8 @@
 
         <ToolbarTaskbarButton class="px-2">
           <div class="space-y-1 text-xs">
-            <div>{{ new Date().toLocaleTimeString() }}</div>
-            <div>{{ new Date().toLocaleDateString() }}</div>
+            <div>{{ formattedTime }}</div>
+            <div>{{ formattedDate }}</div>
           </div>
         </ToolbarTaskbarButton>
 
