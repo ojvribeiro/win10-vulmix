@@ -1,9 +1,5 @@
 <template>
-  <div class="h-screen w-screen bg-black">
-    <img
-      src="/assets/img/wallpaper.jpg"
-      class="h-full w-full object-cover"
-      alt=""
-    />
-  </div>
+  <div
+    class="absolute left-0 top-0 h-screen w-screen bg-black bg-[url(/assets/img/wallpaper.jpg)] bg-cover bg-center"
+  ></div>
 </template>
