@@ -1,6 +1,6 @@
 <template>
   <Wallpaper />
-  
+
   <Toolbar />
 </template>
 
