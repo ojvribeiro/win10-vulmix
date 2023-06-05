@@ -10,10 +10,10 @@
 
 <style scoped lang="scss">
   button {
-    transition: 0.2s background-color ease-out;
+    transition: 0.15s background-color ease-out;
 
     &:hover {
-      transition: 0.05s background-color ease-in;
+      transition: 0.005s background-color ease-in;
     }
   }
 </style>
