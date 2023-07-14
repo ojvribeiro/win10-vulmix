@@ -8,6 +8,7 @@
     "serve": "vulxi serve"
   },
   "dependencies": {
+    "@vueuse/core": "^10.2.1",
     "tailwindcss": "^3.3.2",
     "vulmix": "^0.6.1-beta"
   },
